@@ -1,0 +1,124 @@
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index">
+        <div class="sidebar-brand-icon rotate-n-20">
+            <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">BKHust Hotel Admin</div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item">
+        <a class="nav-link" href="/admin">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <!-- Heading -->
+    <div class="sidebar-heading">
+        Addons
+    </div>
+    
+    <!-- Phòng -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePhòng" aria-expanded="true"
+        aria-controls="collapsePhòng">
+        <i class="fas fa-fw fa-hotel"></i>
+            <span>Phòng</span>
+        </a>
+        <div id="collapsePhòng" class="collapse" aria-labelledby="headingPhòng" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Danh sách loại phòng:</h6>
+                <a class="collapse-item" href="/admin/singleRoom">Phòng đơn</a>
+                <a class="collapse-item" href="/admin/doubleRoom">Phòng đôi</a>
+                <a class="collapse-item" href="/admin/DeluxeRoom">Phòng cao cấp</a>
+                <a class="collapse-item" href="/admin/dsphongdat">Phòng đã đặt</a>
+                <a class="collapse-item" href="/admin/dsphongtrong">Phòng trống</a>
+            </div>
+        </div>
+    </li>
+    
+    <!--Service-->
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/createroom">
+                <i class="fas fa-fw fa-book"></i>
+                <span>Thêm phòng</span>
+            </a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link" href="/admin/uploadimage">
+                    <i class="fas fa-fw fa-book"></i>
+                    <span>Upload Ảnh</span>
+                </a>
+            </li>
+    <li class="nav-item">
+        <a class="nav-link" href="dichvu">
+            <i class="fas fa-fw fa-book"></i>
+            <span>Dịch vụ</span>
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="event">
+            <i class="fas fa-fw fa-book"></i>
+            <span>Sự kiện</span>
+        </a>
+    </li>
+
+    <!-- Nav Item - Pages Collapse Menu -->
+
+
+    <!-- Nav Item - Charts --
+    <li class="nav-item">
+      <a class="nav-link" href="charts">
+        <i class="fas fa-fw fa-chart-area"></i>
+        <span>Charts</span></a>
+    </li>
+
+     Nav Item - Tables -->
+    <li class="nav-item">
+        <a class="nav-link" href="hoadon">
+            <i class="fas fa-fw fa-book"></i>
+            <span>Hóa đơn</span>
+        </a>
+    </li>
+
+    <!-- KH -->
+    <li class="nav-item">
+        <a class="nav-link" href="khachhang">
+            <i class="fas fa-fw fa-people-carry"></i>
+            <span>Khách hàng</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true"
+            aria-controls="collapsePages">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Pages</span>
+        </a>
+        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Màn hình đăng nhập:</h6>
+                <a class="collapse-item" href="login">Đăng nhập</a>
+                <a class="collapse-item" href="register">Đăng ký</a>
+                <a class="collapse-item" href="forgotpassword">Quên mật khẩu</a>
+                <div class="collapse-divider"></div>
+                <h6 class="collapse-header">Trang khác:</h6>
+                <a class="collapse-item" href="404">404 Page</a>
+                <a class="collapse-item" href="blank">Trang trống</a>
+            </div>
+        </div>
+    </li>
+    <!-- Divider -->
+    <hr class="sidebar-divider d-none d-md-block">
+
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+
+</ul>

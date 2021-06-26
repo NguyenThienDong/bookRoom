@@ -1,0 +1,50 @@
+    
+    <div class="site-navbar-wrap js-site-navbar bg-white">
+      
+        <div class="container">
+          <div class="site-navbar bg-light">
+            <div class="py-1">
+              <div class="row align-items-center">
+                <div class="col-2">
+                  <h2 class="mb-0 site-logo"><a href="index">BK Hust Hotel</a></h2>
+                </div>
+                <div class="col-10">
+                  <nav class="site-navigation text-right" role="navigation" style="margin-right: 10%">
+                    <div class="container">
+                      
+                      <div class="d-inline-block d-lg-none  ml-md-0 mr-auto py-3"  ><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
+                      <ul class="site-menu js-clone-nav d-none d-lg-block">
+                        <li class="active">
+                          <a href="index">Trang chủ</a>
+                        </li>
+                        <li class="has-children">
+                          <a href="rooms">Phòng</a>
+                          <ul class="dropdown arrow-top">
+                            <li><a href="rooms">Hiện còn trống</a></li>
+                            <li><a href="phongdon">Phòng đơn</a></li>
+                            <li><a href="phongdoi">Phòng đôi</a></li>
+                            <li><a href="phongcaocap">Phòng cao cấp</a></li>
+                            <li><a href="/service">Dịch vụ</a></li>
+                            
+                          </ul>
+                        </li>
+                        <li><a href="events">Sự kiện</a></li>
+                        <li><a href="about">Thông tin</a></li>
+                        <li><a href="contact">Liên hệ</a></li>
+                        <% 
+                          %><li><span style="color: yellow; font-size: 20px"><%= typeof name != 'undefined' ? name : '' %></span></li><%
+                        %>
+                        
+                        <%- auth %>
+                        
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        
